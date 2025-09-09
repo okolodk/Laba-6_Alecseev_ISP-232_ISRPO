@@ -78,6 +78,22 @@
             //        Console.Write("На ноль делить нельзя. Повторите ввод делителя: ");
             //    }
             //}
+            //Задание 4
+            //int number;
+            //Console.Write("Введите число: ");
+            //while (true)
+            //{
+            //    try
+            //    {
+            //         number = Convert.ToInt32(Console.ReadLine());
+            //        if ( number is int) { break; }
+            //    } catch (FormatException)
+            //    {
+            //        Console.Write("Введите коректное число: ");
+            //    }
+            //}
+            //Console.WriteLine("Ваше число " + number);
+
         }
         //Задание 1
         //static double sum(double x, double y) { return x + y; }
