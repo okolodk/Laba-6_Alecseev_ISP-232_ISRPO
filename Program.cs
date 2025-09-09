@@ -55,7 +55,29 @@
             //        Console.WriteLine("Неизветная ошибка" + ex.Message);
             //    }
             //    finally { Console.WriteLine("Работа завершина"); }
-            }
+            //}
+            //Задание 3
+            //Console.Write("Делимое = ");
+            //double number1 = Convert.ToDouble(Console.ReadLine());
+            //double number2 = 0;
+            //Console.Write("Длитель = ");
+            //while (number2 == 0)
+            //{
+            //    try
+            //    {
+            //        number2 = Convert.ToDouble(Console.ReadLine());
+
+            //        if (number2 == 0)
+            //        {
+            //            throw new DivideByZeroException("На ноль делить нельзя. Повторите ввод делителя: ");
+            //        }
+            //        Console.WriteLine(number1 / number2);
+            //    }
+            //    catch (DivideByZeroException)
+            //    {
+            //        Console.Write("На ноль делить нельзя. Повторите ввод делителя: ");
+            //    }
+            //}
         }
         //Задание 1
         //static double sum(double x, double y) { return x + y; }
